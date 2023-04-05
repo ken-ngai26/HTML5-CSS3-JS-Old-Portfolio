@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cycling in Vancouver: False Creek Seawall Loop</title>
+    <meta< name="description" content="CyclinginVancouver is a Metro Vancouver route planner, which lets you plan different kind of routes from A to B by bike in difficulties. It is designed by cyclist community, for cyclist community, and give a easier start to the beginners cyclist in Vancouver. There is many cycling routes already planned from the community and commented by the cyclist who submit it. New cyclist can join the community by signing up and able to join group cycling formed by the community’s cyclist and enjoy cycling together and make new friends.">
+        <meta name="keywords" content="cycling in Vancouver, cyclinginVancouver, cycling vancouver british columbia, cycling, best place to bike in vancouver, biking in vancouver, cycling planner, vancouver cycling community, vancouver cycling safety, cycling route planner in vancouver, stanly park cycling, central valley greenway cycling, false creek cycling, vancouver group cycling, cycling meetup, vancouver cycling tips, vancouver cycling event, downtown cycling, ubc cycling,seaside greenway cycling, blossoms cycling, Metro vancouver cycling, vancouver cycling community, greenest city vancouver, cycling map,r,vancouver biking planner, vancouver biking route planner ">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta http-equiv="cleartype" content="on">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+        <link rel="shortcut icon" sizes="196x196" href="img/touch/touch-icon-196x196.png">
+        <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="css/modern-business.css" rel="stylesheet">
+        <link href="css/my-stylesheet.css" rel="stylesheet">
+        <!-- Custom Fonts -->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!--   Wrapper start -->
+    <div id="wrapper">
+        <div class="navbar-more-overlay"></div>
+        <nav class="navbar navbar-inverse navbar-fixed-top animate">
+            <div class="container navbar-more visible-xs">
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for...">
+                            <span class="input-group-btn">
+                            <!-- <button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button> -->
+                            <a href="404.html" class="btn btn-default" role="button"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        </span>
+                        </div>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown ">
+                        <a href="404.html" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+                        <ul id="login-dp" class="dropdown-menu">
+                            <li>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        Login via
+                                        <div class="social-buttons">
+                                            <a href="404.html" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                                            <a href="404.html" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                                        </div>
+                                        or
+                                        <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                            <div class="form-group">
+                                                <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="sr-only" for="exampleInputPassword2">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                                <div class="help-block text-right"><a href="404.html">Forget the password ?</a></div>
+                                            </div>
+                                            <div class="form-group">
+<!--                                                 <button type="submit" class="btn btn-primary btn-block">Sign in</button> -->
+                                                <a href="404.html" class="btn btn-primary btn-block" role="button">Sign in</a>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> keep me logged-in
+                                                </label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="bottom text-center">
+                                        New here ? <a href="signup.html"><b>Sign Up</b></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="404.html" class="dropdown-toggle" data-toggle="dropdown">Group Cycling<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="create.html">Create Group</a>
+                            </li>
+                            <li>
+                                <a href="join.html">Join Group</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="404.html" class="dropdown-toggle" data-toggle="dropdown">Route<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="easy.html">Easy</a>
+                            </li>
+                            <li>
+                                <a href="intermediate.html">Intermediate</a>
+                            </li>
+                            <li>
+                                <a href="expert.html">Expert</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="signup.html">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="navbar-header hidden-xs">
+                    <a class="navbar-brand" href="index.html">Cycling in Vancouver</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right mobile-bar">
+                    <li>
+                        <a href="index.html">
+                        <span class="menu-icon fa fa-home"></span>
+                        <span class="visible-xs">Home</span>
+                    </a>
+                    </li>
+                    <li>
+                        <a href="index.html#planner">
+                        <span class="menu-icon fa fa-phone"></span>                     
+                        <span class="hidden-xs">Route Planner</span>
+                        <span class="visible-xs">Planner</span>
+                    </a>
+                    </li> <li class="moveleft">
+                            <a href="blog.html">
+                        <span class="menu-icon fa fa-info"></span>
+                        <span class="hidden-xs">Blog</span>
+                        <span class="visible-xs">Blog</span>
+                    </a>
+                        </li>
+                    <li class="dropdown hidden-xs">
+                        <a href="404.html" class="dropdown-toggle" data-toggle="dropdown">Group Cycling<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="create.html">Create</a>
+                            </li>
+                            <li>
+                                <a href="join.html">Join</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown hidden-xs">
+                        <a href="404.html" class="dropdown-toggle" data-toggle="dropdown">Route<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="easy.html">Easy</a>
+                            </li>
+                            <li>
+                                <a href="intermediate.html">Intermediate</a>
+                            </li>
+                            <li>
+                                <a href="expert.html">Expert</a>
+                            </li>
+                        </ul>
+                         <li class="hidden-xs">
+                        <a href="faq.html">
+                        <span class="hidden-xs">FAQ</span>
+                    </a>
+                    </li>
+                    <li class="hidden-xs">
+                        <a href="signup.html">
+                        <span class="hidden-xs">Signup</span>
+                    </a>
+                    </li> <ul class="nav navbar-nav ">
+                            <li class="dropdown hidden-xs">
+                                <a href="404.html" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+                                <ul id="login-dp" class="dropdown-menu">
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                Login via
+                                                <div class="social-buttons">
+                                                    <a href="404.html" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                                                    <a href="404.html" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                                                </div>
+                                                or
+                                                <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                                    <div class="form-group">
+                                                        <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="sr-only" for="exampleInputPassword2">Password</label>
+                                                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                                        <div class="help-block text-right"><a href="404.html">Forget the password ?</a></div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <!-- <button type="submit" class="btn btn-primary btn-block">Sign in</button> -->
+                                                        <a href="signedin.html" class="btn btn-primary btn-block" role="button">Sign in</a>
+                                                    </div>
+                                                    <div class="checkbox">
+                                                        <label>
+                                                            <input type="checkbox"> keep me logged-in
+                                                        </label>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="bottom text-center">
+                                                New here ? <a href="signup.html"><b>Sign Up</b></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-right hidden-xs" role="search">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" size="10" placeholder="Search for...">
+                                    <span class="input-group-btn">
+                            <!-- <button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button> -->
+                            <a href="404.html" class="btn btn-default" role="button"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        </span>
+                                </div>
+                            </div>
+                        </form>
+                        <li class="visible-xs">
+                            <a href="#navbar-more-show">
+                        <span class="menu-icon fa fa-bars"></span>
+                        More
+                    </a>
+                        </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content -->
+        <section>
+            <!-- Page Heading/Breadcrumbs -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">False Creek Seawall Loop
+                    <small>by <a href="index.html">Cycling in Vancouver</a>
+                    </small>
+                </h1>
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a>
+                        </li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li class="active">False Creek Seawall Loop</li>
+                    </ol>
+                </div>
+            </div>
+            <!-- /.row -->
+            <!-- Content Row -->
+            <div class="row">
+                <!-- Blog Post Content Column -->
+                <div class="col-md-8">
+                    <!-- Blog Post -->
+                    <hr>
+                    <!-- Date/Time -->
+                    <p><i class="fa fa-clock-o"></i> Posted on June 24, 2017 at 9:00 PM</p>
+                    <hr>
+                    <!-- Preview Image -->
+                    <div class="slideshow img-blog">
+                        <figure class="show">
+                            <img src="images/yaletown.jpg" class="img-responsive img-blog" alt="yaletown.jpg">
+                            <figcaption>Yaletown Seawall on a beautiful sunny day. </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/bcplace.jpg" class="img-responsive img-blog" alt="bcplace">
+                            <figcaption>Nice view of BC Place Stadium across the creek.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/cambiebridge.jpg" class="img-responsive img-blog" alt="cambiebridge">
+                            <figcaption>Cambie Bridge on a cloudy day.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/GranvilleBridge.jpg" class="img-responsive img-blog" alt="GranvilleBridge">
+                            <figcaption>Night view of Granville Bridge.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/gravilleisland.jpg" class="img-responsive img-blog" alt="gravilleisland">
+                            <figcaption>Graville Island on a sunny day.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/burrardbridge.jpg" class="img-responsive img-blog" alt="burrardbridge">
+                            <figcaption>Night view of Burrard Bridge.</figcaption>
+                        </figure>
+                        <span class="prev">&laquo;</span>
+                        <span class="next">&raquo;</span>
+                    </div>
+                    <hr>
+                    <!-- Post Content -->
+                    <p class="lead">Sometimes, the best way to see downtown Vancouver, is to appreciate it from a distance. The False Creek loop allows just that, it is a 9.11 km ride as you cycle along the south shores of the narrow water separating the rest of Vancouver from its core.</p>
+                    <ul>
+                        <li>Road: All paved</li>
+                        <li>Difficulty level: Easy</li>
+                        <li>Safety level: Safe for the whole family</li>
+                        <li>Suitable for: Everyone</li>
+                    </ul>
+                    <p>Follow the map below and check out some of the sightseeing point!</p>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <figure>
+                                <img class="img-responsive img-blog" src="images/Falsecreekroutemap.jpg" alt="Falsecreekroutemap">
+                                <figcaption class="smallerfont">The planned route map of False Creek Seawall Loop.</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <h4 class="subhead">Sightseeing Point</h4>
+                    <p>Starting off in Science World this route will loop you around False Creek. You’ll pass by landmarks like:
+                    </p>
+                    <ul>
+                        <li>Yaletown</li>
+                        <li>BC Place Stadium</li>
+                        <li>Rogers Arena</li>
+                        <li>Olympic Village</li>
+                        <li>Cambie Bridge</li>
+                        <li>Granville Bridge</li>
+                        <li>Granville Island</li>
+                        <li>Burrard Bridge</li>
+                    </ul>
+                    <p>The beautiful urban view across the water is what makes this route one of the best in Vancouver.</p>
+                    <br>
+                    <hr>
+                    <!-- Blog Comments -->
+                    <!-- Comments Form -->
+                    <div class="col-lg-12">
+                        <div class="well">
+                            <h4>Leave a Comment:</h4>
+                            <br>
+                            <form>
+                                <div>
+                                    <textarea class="textinput" rows="4" placeholder="Comment"></textarea>
+                                </div>
+                                <br>
+                                <a href="404.html" class="btn btn-primary" role="button">Submit</a>
+                            </form>
+                        </div>
+                        <hr>
+                        <!-- Posted Comments -->
+                        <!-- Comment -->
+                        <div class="well">
+                            <h4>Comments:</h4>
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                <img class="media-object " src="images/gem.jpeg" alt="profile">
+                            </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Sam Trump
+                                    <small>June 25, 2017 at 9:30 PM</small>
+                                </h4> Cool Route
+                                </div>
+                            </div>
+                            <!-- Comment -->
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                <img class="media-object " src="images/bread.jpeg" alt="profile">
+                            </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">John Don
+                                    <small>June 25, 2017 at 8:30 PM</small>
+                                </h4> How do I get there?
+                                    <!-- Nested Comment -->
+                                    <div class="media media-nested">
+                                        <a class="pull-left" href="#">
+                                        <img class="media-object " src="images/tnt.jpeg" alt="profile">
+                                    </a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Jay Don
+                                            <small>June 26, 2017 at 9:30 PM</small>
+                                        </h4> Use the Route Planner!
+                                        </div>
+                                    </div>
+                                    <!-- End Nested Comment -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Sidebar Widgets Column -->
+                <!-- Blog Sidebar Widgets Column -->
+                <div class="col-md-4">
+                    <!-- Blog Search Well -->
+                    <div class="panel panel-default" ">
+                        <h4 class="panel-heading ">Blog Search</h4>
+                        <div class="panel-body ">
+                        <div class="input-group ">
+                            <input type="text " class="form-control " placeholder="Search for... ">
+                            <span class="input-group-btn ">
+                            <a href="404.html" class="btn btn-primary btn-block" role="button"><i class="fa fa-search " aria-hidden="true "></i></a>
+                        </span>
+                        </div>
+                    </div>
+                        <!-- /.input-group -->
+                    </div>
+
+                    <!-- Blog Categories Well -->
+                    <div class="panel panel-default ">
+                        <h4 class="panel-heading ">Blog Categories</h4>
+                        <div class="panel-body ">
+                        <div class="row ">
+                            <div class="col-lg-6 ">
+                                <ul class="list-unstyled mb-0 ">
+                                    <li><a href="# ">Browse by Route</a>
+                                    </li>
+                                    <li><a href="# ">Browse by Tips</a>
+                                    </li>
+                                    <li><a href="# ">Browse by Guide</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                                
+                    </div>
+                          
+                                
+                    <div class="panel panel-default ">
+                                <h4 class="panel-heading ">Follow us on:</h4>
+                                <div class="panel-body ">
+
+                                <ul class="socialmedia list-unstyled ">
+                                    <li>
+                                        <a href="http://www.facebook.com " target="_blank "><img class="img-responsive " src="images/btn-facebook.png " alt="facebookbutton "></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.twitter.com " target="_blank "><img class="img-responsive " src="images/btn-twitter.png " alt="twitterbutton "></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.instagram.com " target="_blank "><img class="img-responsive " src="images/btn-instagram.png " alt="instabutton "></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            </div>
+
+                     
+                        <!-- /.row -->
+               </div>
+                 
+               
+       </section>
+        <br>
+        <br>
+        <!-- /.container -->
+        <!-- /.row -->
+        <!-- Footer -->
+        <footer>
+            <div class="row ">
+                <br>
+                <div class="col-lg-12 ">
+                    <h4> <a href="index.html ">Home</a> | <a href="faq.html ">FAQ</a> | <a href="about.html ">About</a> | <a href="contact.html ">Contact Us</a> </h4>
+                    <br>
+                    <ul class="list-unstyled list-inline list-social-icons ">
+                        <li>
+                            <a href="https://www.facebook.com " target="_blank "><i class="fa fa-facebook-square fa-3x "></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/ " target="_blank "><i class="fa fa-linkedin-square fa-3x "></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com " target="_blank "><i class="fa fa-twitter-square fa-3x "></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/ " target="_blank "><i class="fa fa-google-plus-square fa-3x "></i></a>
+                        </li>
+                    </ul>
+                    <br>
+                    <h5>&copy;Copyright 2017. BCIT. For Educational Purposes Only.</h5>
+                </div>
+            </div>
+        </footer>
+        <!-- wrapper -->
+    </div>
+    <!-- /.container -->
+    <!-- jQuery -->
+    <script src="js/jquery.js "></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js "></script>
+     <script type="text/javascript " src="js/libs/jquery.touchSwipe.min.js "></script>
+    <!-- my script -->
+    <script src="js/myscript.js "></script>
+    <!-- Script to Activate the Carousel -->
+    <script>
+    var counter = 0, // to keep track of current slide
+        $items = $('.slideshow figure'), // a collection of all of the slides, caching for performance
+        numItems = $items.length; // total number of slides
+
+    // this function is what cycles the slides, showing the next or previous slide and hiding all the others
+    var showCurrent = function() {
+        var itemToShow = Math.abs(counter % numItems); // uses remainder (aka modulo) operator to get the actual index of the element to show  
+
+        $items.removeClass('show'); // remove .show from whichever element currently has it
+        $items.eq(itemToShow).addClass('show');
+    };
+
+    // add click events to prev & next buttons 
+    $('.next').on('click', function() {
+        counter++;
+        showCurrent();
+    });
+    $('.prev').on('click', function() {
+        counter--;
+        showCurrent();
+    });
+
+    // if touch events are supported then add swipe interactions using TouchSwipe https://github.com/mattbryson/TouchSwipe-Jquery-Plugin
+    if ('ontouchstart' in window) {
+        $('.slideshow').swipe({
+            swipeLeft: function() {
+                counter++;
+                showCurrent();
+            },
+            swipeRight: function() {
+                counter--;
+                showCurrent();
+            }
+        });
+    }
+    </script>
+</body>
+
+</html>

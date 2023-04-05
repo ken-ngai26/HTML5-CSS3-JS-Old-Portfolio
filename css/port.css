@@ -1,0 +1,122 @@
+
+/* Global */
+body {
+    margin: 0;
+}
+.portfolio-section {
+    padding-bottom:40px;
+}
+
+
+/* category filter */
+
+.filter-section {
+}
+
+
+.filter-container {
+    text-align:left;
+    padding:0px 20px 20px 20px;
+}
+
+
+ul.filter > li > a {
+    color:#1abc9c;
+    font-size:20px;
+    line-height:40px;
+}
+
+ul.filter > li > a:hover,ul.filter > li > a:focus {
+    text-decoration:none;
+    color:#16a085;
+    outline:none;
+}
+
+ul.filter > li.active a {
+    color:#111;
+}
+
+ul.filter > li span {
+    color:#ddd;
+    font-size:20px;
+    display:inline-block;
+    margin:0 5px;
+}
+
+.filter-section .filter-container .filter > li {
+    padding:0;
+    margin:0;
+}
+
+.filter-section h1 {
+    text-align:center;
+}
+
+
+/* the color of the transparent overlay border */
+
+
+
+/* portfolio images */
+
+.portfolio-section figure {
+    float:left;
+    width:100%;
+    position:relative;
+}
+
+.portfolio-section figure img {
+    width:100%;
+    height:auto;
+}
+
+
+/* project title under image */
+
+.portfolio-section .article-title {
+    text-align:center;
+    float:left;
+    width:100%;
+    font-size:18px;
+    line-height:24px;
+    padding:10px 0 30px 0;
+}
+
+.portfolio-section .article-title a {
+    color:#aaa;
+}
+
+
+/* skew image on hover */ 
+
+.isotopeSelector img {
+    -webkit-transition:all .4s ease;
+    -moz-transition:all .4s ease;
+    -ms-transition:all .4s ease;
+    -o-transition:all .4s ease;
+    transition:all .4s ease
+}
+
+.isotopeSelector:hover img {
+    -moz-transform:scale(1.5) rotate(2deg);
+    -webkit-transform:scale(1.5) rotate(2deg);
+    -o-transform:scale(1.5) rotate(2deg);
+    -ms-transform:scale(1.5) rotate(2deg);
+    transform:scale(1.5) rotate(2deg);
+    -webkit-transition:all .8s ease;
+    -moz-transition:all .8s ease;
+    -ms-transition:all .8s ease;
+    -o-transition:all .8s ease;
+    transition:all .8s ease;
+}
+
+.isotopeSelector figure {
+    overflow:hidden;
+}
+
+.isotopeSelector figure {
+    box-shadow:0 0 2px rgba(0,0,0,0.2);
+}
+
+
+
